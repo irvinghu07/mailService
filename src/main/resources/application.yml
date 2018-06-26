@@ -1,0 +1,10 @@
+spring:
+  thymeleaf:
+    mode: HTML
+  mail:
+    host: smtp.qq.com
+    username: 2803937638@qq.com
+    password: lplefpcrjhnmdhbc
+    default-encoding: utf-8
+
+
