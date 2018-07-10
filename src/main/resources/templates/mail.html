@@ -3,15 +3,25 @@
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
+    <style type="text/css">
+        .d {
+            text-align: center;
+            border: 1px solid #CCC;
+            width: 500px;
+            margin: 10px auto;
+        }
+    </style>
 </head>
 <body>
-<h1>简单的邮件发送服务</h1>
-<form method="post" action="fetchMail.do">
-    <p>输入邮件接受者的邮箱：<input type="text" name="receiver"></p>
-    <p>输入邮件标题：<input type="text" name="subject"></p>
-    <p>输入邮件正文：<input type="text" name="content"></p>
-    <input type="submit" value="提交">
-</form>
+<div class="d">
+    <h1>简单的邮件发送服务</h1>
+    <form method="post" action="fetchMail.do">
+        <p>输入邮件接受者的邮箱：<input type="text" name="receiver"></p>
+        <p>输入邮件标题：<input type="text" name="subject"></p>
+        <p>输入邮件正文：<input type="text" name="content"></p>
+        <input type="submit" value="提交">
+    </form>
+</div>
 
 
 </body>
